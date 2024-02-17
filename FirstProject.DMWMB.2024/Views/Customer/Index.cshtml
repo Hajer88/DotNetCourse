@@ -1,0 +1,10 @@
+﻿@model FirstProject.DMWMB._2024.Models.VIewModels.CustomersMovieVM
+
+
+
+<h2>@Model.movie.Name</h2>
+
+@foreach(var item in Model.customers)
+{
+        <h2>@Html.ActionLink(@item.Name,"Details","Customer", new {Id = item.Id})</h2>
+}

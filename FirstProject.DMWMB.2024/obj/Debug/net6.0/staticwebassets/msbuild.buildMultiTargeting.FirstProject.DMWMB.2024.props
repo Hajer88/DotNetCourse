@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/FirstProject.DMWMB.2024.props" />
+</Project>
